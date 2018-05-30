@@ -6,7 +6,6 @@ const ctx = canvas.getContext('2d');
 
 const {sin, cos, random} = Math;
 
-
 let option = {
   size: 1000,
   point: 12.55,
