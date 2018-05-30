@@ -1,0 +1,64 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+body{
+
+  background-image: url(http://pixeljoint.com/files/icons/full/space__r1142189791.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.info{
+  box-sizing: border-box;
+  border:1px solid #EF5350;
+  color: #EF5350;
+  width: 170px;
+  padding: .5em;
+  margin-top: 1em;
+  p{
+    margin: 0;
+    padding: 0;
+    span{
+      float: right;
+    }
+  }
+}
+.setting{
+  color:#EF5350 ;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  
+}
+#inps{
+    margin-right: 1000px;
+}
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  background-color: #8c9190;
+  height:1px;
+  outline: none;
+  height: 20px;
+  border-radius: 10px;
+  }
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #D32F2F;
+  border: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+#canvas{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
